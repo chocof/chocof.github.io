@@ -1,0 +1,18 @@
+{% assign other = site.data.cv.other %}
+{% if other %}
+<section class="other">
+    <h2 class="title">Other</h2>
+    {% for oth in other %}
+    <div class="other-item">
+        <div class="otitle">
+            {{oth.title}}
+        </div>
+        <div class="location">{{oth.location}}</div>
+        <div class="details">
+            {{oth.details}}
+        </div>
+        <p class="technologies">Technologies Used: {{oth.technologies_used}}</p>
+    </div>
+    {% endfor %}
+</section>
+{% endif %}
