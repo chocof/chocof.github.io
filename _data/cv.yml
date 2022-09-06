@@ -1,0 +1,120 @@
+name: John Doe
+support_dark_mode: true
+fork: true
+
+languages:
+  - idiom: English
+  - idiom: Greek
+
+profile: |
+  Ever curious Software engineer. My interests include IoT, 
+  network security, sensors, distributed programming, operating systems 
+  and network protocols.  
+  
+  Always willing to learn new things, come up with fresh approaches to seemingly 
+  unresolved problems and take initiative in order to take the final 
+  product one step forward.
+
+education:
+  - degree: |
+      Networks and Systems' 
+
+      Security (MSc)
+    time: Sep 2020 ‑ Feb 2022
+    university: Aristotle University of Thessaloniki
+    grade: 9.67/10
+
+  - degree: |
+      Computer Science 
+      
+      (BSc & MEng)
+
+    time: Sep 2012 ‑ Feb 2018
+    university: University of Thessaly
+    grade: 7.5/10
+
+skills:
+  - category: Programming
+    skill: 
+      - JavaScript 
+      - Python 
+      - SQL 
+      - C
+      - Java
+      - Typescript
+      - PHP
+      - GO
+  - category: Frameworks
+    skill:
+      - NodeJS
+      - Flask
+  - category: Databases
+    skill:
+      - postgreSQL
+      - mySQL
+      - mongoDB
+      - Redis
+  - category: Tools
+    skill:
+      - Git
+      - LaTeX 
+      - Wireshark 
+      - Bash 
+
+other:
+  - title: Graduate Teaching Fellow
+    location: Aristotle University of Thessaloniki
+    details: During my studies I had the opportunity to give a series of lectures on the Internet Protocol Suite. Part of my duties included the preparation of the Networks workshop in which students had to prepare programming projects and observe network packets within the Wireshark environment.
+    technologies_used:
+      Java, Wireshark
+# Experience
+experience:
+  - role: Software Engineer
+    time: May 2022 – August | Thessaloniki, Greece
+    company: Digital Publications Group (Contract)
+    details:
+      - Designed and implemented DPG’s newest and most ambitious E-Commerce project.
+      - Introduced the concept of micro-services and managed to integrate it into their former infrastructure.
+      - Micro-services were written using NodeJS and Postgres. A pub/sub communication scheme was implemented using Redis.
+    technologies_used: | 
+      NodeJS, Docker, Bash,PostgreSQL, PHP
+  
+  - role: Backend Software Developer
+    time: July 2019– October 2020 | London, UK
+    company: Big Pixel Studios (Contract)
+    details:
+      - Designed and implemented various features for their online game Clone Rumble.
+      - Improved the existing server framework and their query builder modules based on the team’s needs.
+      - Implemented custom modules that made code development easy and fun
+    technologies_used: | 
+      NodeJS, Python, Bash, PostgreSQL, Docker
+  
+  - role: Backend Software Developer
+    time: March 2018 – March 2019 | London, UK
+    company: Kwiff
+    details:
+      - Collaborated with an exceptional team to develop new features for a new and innovative betting company.
+      - Extended their system to support new sports (MMA, Boxing, Greyhound & Horse Racing).
+      - Refactored outdated legacy code.
+    technologies_used: | 
+      NodeJS, Python, Bash, PostgreSQL, Docker
+  
+  - role: Backend Software Developer
+    time: September 2017 – March 2018 | London, UK
+    company: The World Weekly (Internship)
+    details:
+      - Working with a multicultural and multitalented team provided me with significant experience.
+      - Τook the initiative to rewrite the original news-media website in NodeJS. By doing so, I was able to lower the website’s hosting cost to 1/8 of its initial cost.
+    technologies_used: | 
+      NodeJS, Python, Bash, PHP, PostgreSQL, mySQL
+  
+  - role: Software Developer
+    time: June 2015 – August 2015 | Volos, Greece
+    company: Centaur Analytics (Internship)
+    details:
+      - Centaur’s vibrant workplace assisted me in developing a strong work ethic and learning how to interact with my coworkers.
+      - Helped develop DrivePal, a project that attempted to decrease car emissions by tracking customers’ driving habits.
+    technologies_used: | 
+      NodeJS, Python, Bash, MongoDB
+
+  

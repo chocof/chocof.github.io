@@ -1,0 +1,21 @@
+.other {
+    .title {
+        @include header;
+    }
+    .other-item {
+        .otitle {
+            @include body-text;
+            font-weight: bold;
+        }
+        .location {
+            color: var(--fg-color-title-sm);
+            font-weight: 100;
+        }
+        .details {
+            @include body-text;
+        }
+        .technologies {
+            @include body-text;
+        }
+    }
+}

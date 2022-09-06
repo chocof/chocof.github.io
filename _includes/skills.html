@@ -1,0 +1,13 @@
+{% assign skills = site.data.cv.skills %}
+{% if skills %}
+<section class="skills">
+    {% for sks in skills %}
+    <div class="title">{{sks.category}} skills</div>
+    <ul>
+        {% for sk in sks.skill%}
+        <li class="skill">{{sk}}</li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</section>
+{% endif %}
