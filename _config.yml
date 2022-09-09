@@ -1,10 +1,14 @@
 # Build settings
 url: chocof.github.io
 port: 4000
-markdown:  kramdown
 permalink: /:title
 plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
-
+markdown:    kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
 title:		   "Fotis Tsokos"
