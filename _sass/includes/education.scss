@@ -1,7 +1,11 @@
 .education {
     margin-bottom: 20px;
     .title {
-        @include sub-header;
+        @include header;
+    }
+    ul {
+        display: inline-flex;
+        list-style: none;
     }
     .education-item {
         margin-bottom: 20px;

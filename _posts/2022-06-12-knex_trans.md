@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Postgres Knex Transactions and Async Hooks"
+title: "Postgres, Knex Transactions and Async Hooks"
 ---
 
 ### Initial Idea

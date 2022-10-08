@@ -1,14 +1,18 @@
 {% assign education = site.data.cv.education %}
 {% if education %}
 <section class="education">
-    <div class="title">Education</div>
+    <h2 class="title">Education</h2>
     {% for ed in education %}
-    <div class="education-item">
-        <div class="degree">{{ed.degree}}</div>
-        <div class="university">{{ed.university}}</div>
-        <div class="time">{{ed.time}}</div>
-        <div class="grade">Grade: {{ed.grade}}</div>
-    </div>
+    <ul>
+        <li>
+            <div class="education-item">
+                <div class="degree">{{ed.degree}}</div>
+                <div class="university">{{ed.university}}</div>
+                <div class="time">{{ed.time}}</div>
+                <div class="grade">Grade: {{ed.grade}}</div>
+            </div>
+        </li>
+    </ul>
     {% endfor %}
 </section>
 {% endif %}
